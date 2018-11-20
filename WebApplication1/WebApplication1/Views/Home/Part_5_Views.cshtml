@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Part_5_Views";
+}
+
+<h2>Part_5_ViewBag</h2>
+
+<h2>Countries List</h2>
+<ul>
+    @foreach (var a in ViewBag.Countries)  // ViewBag uses Dynamic Properties
+    {
+        <li>@a</li>}
+</ul>

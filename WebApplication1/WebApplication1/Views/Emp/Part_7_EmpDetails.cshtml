@@ -1,0 +1,30 @@
+﻿@model WebApplication1.Models.Employee
+
+@{
+    ViewBag.Title = "Part_7_EmpDetails";
+}
+
+<h2>Part_7_EmpDetails</h2>
+
+
+<div>
+    <table style="font-family:Times New Roman" border="1">
+        <tr>
+            <td> <b> Id : </b> </td>
+            <td>@Model.EmpID</td>
+        </tr>
+        <tr>
+            <td> <b> Name : </b> </td>
+            <td>@Model.EmpName</td>
+        </tr>
+        <tr>
+            <td> <b> Department : </b> </td>
+            <td>@Model.Department</td>
+        </tr>
+        <tr>
+            <td> <b> City : </b> </td>
+            <td>@Model.City</td>
+        </tr>
+    </table>
+</div>
+

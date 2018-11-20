@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Part_6_ViewData";
+}
+
+<h2>Part_6_ViewData</h2>
+<h2>Countries List</h2>
+<ul>
+    @foreach (var a in (List<string>)ViewData["Countries"])  // View Data needs typecasting 
+    {
+        <li>@a</li>
+    }
+</ul>
+
